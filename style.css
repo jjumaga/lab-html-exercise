@@ -32,3 +32,56 @@ nav a {
     width: 20px;
     margin-right: 1rem;
 }
+
+.nav-2 form {
+    margin: 13px 0;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 1000px;
+    padding: 13px 0 13px 40px;
+    border-style: none;
+    background-image: url(/Users/jacquelinejumaga/Desktop/Ironhack/labs/lab-html-exercise/images/magnifying-glass.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.05);
+    background-position: 10px 10px;
+    margin-right: 0;
+}
+
+label {
+    background-color: rgba(0,0,0,.05);
+}
+
+.npm-logo {
+    width: 60px;
+    margin-right: 1rem;
+}
+
+.searchbutton {
+    background-color: #fb3e44;
+    color: white;
+    border-style: none;
+    padding: 13px;
+    margin-left: 0;
+}
+
+form {
+    margin-bottom: 7px;
+}
+
+.join {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    padding: 2px 13px;
+}
+
+.login {
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+}

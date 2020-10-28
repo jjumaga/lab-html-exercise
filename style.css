@@ -101,10 +101,11 @@ form {
     align-items: stretch;
 }
 
+
+
 h1 {
     font-size: 4em;
     text-align: center;
-    height: 100px;
 }
 
 .brand-statement {
@@ -123,7 +124,6 @@ h1 {
 }
 
 .join-for-free {
-    font-weight: 600;
     color: black;
     background-color: white;
     text-decoration: none;
@@ -173,23 +173,39 @@ h2 {
 }
 
 #structure {
-    width: 600px;
+    height: 600px;
 }
 
 #structure > div {
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
+    margin: 75px 100px;
 }
 
 .structure-layout {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin: auto;
+    text-align: left;
+    width: 250px;
 }
 
 .structure-layout img {
-    width: 20px;
+    width: 40px;
+}
+
+.link-btn {
+    box-shadow: 8px 9px 0 rgba(128,83,35,0.2);
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 20px 150px;
+}
+
+#create-org-btn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+h3 {
+    color: #ED1C24;
 }
